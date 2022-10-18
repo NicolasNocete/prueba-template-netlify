@@ -6,7 +6,7 @@
 		"start": "parcel src/index.html -p 8000",
 		"start_netlify": "parcel src/index.html -p 8000",
 		"build": "parcel build src/index.html --out-dir dist",
-		"build_netlify": "npx -p parcel parcel build src/index.html --public-url ./ '.'",
+		"build_netlify": "npx -p parcel parcel build src/index.html",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "supertommy",
